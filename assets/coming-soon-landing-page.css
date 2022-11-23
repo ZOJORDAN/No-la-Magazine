@@ -1,0 +1,49 @@
+.comingSoon{
+    margin: 142px;
+    text-align: center;
+}
+
+.sctchDisp{
+    font-family: scotch-display, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    margin: 0px;
+}
+
+.sctchDmedIt{
+    font-family: scotch-display, sans-serif;
+    font-style: italic;
+    font-weight: 500;
+}
+
+
+#logoFtSize{
+    font-size: 100px;
+}
+
+.poppinsLite{
+    font-family: poppins, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+
+#announcement{
+    font-size: 46px;
+    margin: 0px;
+}
+
+#invitation{
+    font-size: 25px;
+}
+
+.poppinsReg{
+    font-family: poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* TO DO: fix the size of the input element*/
+.form-control {
+    display: inline-block;
+    width: 65%;
+}
