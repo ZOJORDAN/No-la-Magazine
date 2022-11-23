@@ -1,0 +1,35 @@
+
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'scotch-display','sans-serif';
+    font-style: italic;
+    text-align: center;
+}
+h1{
+    color: azure;
+    font-size: 120px;
+    text-align: center;
+}
+p{
+    color: rgb(40, 39, 39);
+    text-align: center;
+    color: azure;
+}
+html,body{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    place-items: center;
+    background-color: rgb(18, 17, 17);
+    color: azure;
+    font-family: 'poppins', 'sans-serif';
+    font-style: normal;
+    font-weight: 100;
+    text-align: center;
+}
+div.newsletter{
+    border-radius: 50px;
+}
