@@ -43,7 +43,26 @@
 }
 
 /* TO DO: fix the size of the input element*/
-.form-control {
+.form-control{
     display: inline-block;
-    width: 65%;
+    width: 55%;
+}
+
+/* taking care of responsive behaviour */
+@media screen and (min-width: 1152px){
+    
+}
+
+/* creating fluid layout */
+.content-wrap{
+    max-width: 800px;
+}
+
+/* manual dark mode setting */
+
+:root.dark{
+    --background-color: hsl(0, 0%, 11%);
+    --color: hsl(0, 0%, 80%);
+    --link-color: hsl(219, 100%, 77%);
+    --contrast-color: hsl(0, 0%, 80%);
 }

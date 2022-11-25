@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" class="dark">
     <!-- head file inclusion -->
     <?php $title = "À VENIR";
     $stylesheetPath = "../assets/coming-soon-landing-page.css";
@@ -13,7 +13,7 @@
         </p>
         <br>
         <p class="poppinsLite" id="invitation">REÇOIS UNE NOTIFICATION POUR LE LANCEMENT</p><br>
-        <input type="text" placeholder="Entre ton e-mail" class="poppinsReg form-control" size="40"><br><br>
+        <input type="email" name="usermail" placeholder="Entre ton e-mail" class="poppinsReg form-control" size="40"><br><br>
         <input type="submit" value="VALIDER" class="poppinsReg btn btn-dark">
     </body>
 </html>
