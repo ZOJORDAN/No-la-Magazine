@@ -1,10 +1,10 @@
-<!-- include this head in any page.  -->
+<!-- TO DO : include this head in any page.  -->
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- dark mode 
-    <meta name="color-scheme" content="dark light"> -->
+    
+    <!-- dark mode <meta name="color-scheme" content="dark light"> -->
     <title><?php echo $title; ?></title>
 
     <!-- LOGO besides the page title -->
@@ -19,6 +19,7 @@
     stylesheet" integrity="
     sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="
     anonymous">
-    
-    <?php include 'stylesheet-inclusion.php'; ?>
+
+    <!-- file inclusion -->
+    <?php include 'file-inclusion.php'; ?>
 </head>

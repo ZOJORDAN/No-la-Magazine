@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="fr" class="dark">
-    <!-- head file inclusion -->
+    <!-- tab title + logo : head file inclusion -->
     <?php $title = "À VENIR";
-    $stylesheetPath = "../assets/coming-soon-landing-page.css";
+    $filePath = "../assets/coming-soon-landing-page.css";
     include 'head.php'; ?>
+
     <body class="comingSoon">
-        <!-- Bootstrap inclusion -->
+        <!-- Bootstrap body inclusion -->
         <?php include 'bs-cdn-js.php'; ?>
         <p class="sctchDisp" id="logoFtSize">
             NO<span class="sctchDmedIt" id="logoFtSize">&</span>LA

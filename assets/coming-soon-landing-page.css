@@ -48,17 +48,17 @@
     width: 55%;
 }
 
-/* taking care of responsive behaviour */
+/* taking care of responsive behaviour - not used at the moment */
 @media screen and (min-width: 1152px){
     
 }
 
-/* creating fluid layout */
+/* creating fluid layout - not used at the moment */
 .content-wrap{
     max-width: 800px;
 }
 
-/* manual dark mode setting */
+/* manual dark mode setting - not used at the moment */
 
 :root.dark{
     --background-color: hsl(0, 0%, 11%);
