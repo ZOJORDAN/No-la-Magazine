@@ -1,3 +1,16 @@
+html{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 100%;
+    align-items: center;
+}
+
 .comingSoon{
     margin: 142px;
     text-align: center;
@@ -59,6 +72,22 @@
 }
 
 /* manual dark mode setting - not used at the moment */
+
+:root, :root.light{
+    --background-color: hsl(0, 0%, 100%);
+    --color: hsl(0, 0%, 0%);
+    --link-color: inherit;
+    --contrast-color: hsl(0, 0%, 0%);
+}
+
+@media(prefers-color-scheme: dark){
+    :root{
+        --background-color: hsl(0, 0%, 11%);
+        --color: hsl(0, 0%, 80%);
+        --link-color: hsl(219, 100%, 77%);
+        --contrast-color: hsl(0, 0%, 80%);
+    }    
+}
 
 :root.dark{
     --background-color: hsl(0, 0%, 11%);

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr" class="dark">
+<html lang="fr">
     <!-- tab title + logo : head file inclusion -->
     <?php $title = "À VENIR";
     $filePath = "../assets/coming-soon-landing-page.css";
