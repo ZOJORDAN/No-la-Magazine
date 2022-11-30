@@ -4,12 +4,11 @@
 
 <script type="text/javascript" src="../script/toggle.js"></script>
 
-<fieldset class="radio-switch">
-    <legend>Settings</legend>
-
-    <input type="radio" name="lol" id="public">
-    <label for="public">On</label>
-
-    <input type="radio" name="lol" id="private">
-    <label for="private">Off</label>
-</fieldset>
+<div class="toggles">
+    <span class="material-symbols-outlined">
+    light_mode</span>
+    <button type="button" id="styled" aria-pressed="false" 
+    onclick="toggle(this.id);"></button>
+    <span class="material-symbols-outlined">
+    dark_mode</span>
+</div>
