@@ -1,4 +1,4 @@
-<!-- TO DO : include this head in any page.  -->
+<!-- to include this head in any page  -->
 <head>
     <!-- meta -->
     <?php include 'meta.php'; ?>
