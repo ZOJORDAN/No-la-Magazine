@@ -12,14 +12,14 @@
         <!-- toggle inclusion -->
         <?php include 'toggle.php'; ?>
 
-        <p class="sctchDisp" id="logoFtSize">
-            NO<span class="sctchDmedIt" id="logoFtSize">&</span>LA
-            <p class="poppinsLite" id="announcement">ARRIVE BIENTÔT</p>
+        <p class="scotchDisplay" id="logoFontSize">
+            NO<span class="scotchDisplayMediumItalic" id="logoFontSize">&</span>LA
+            <p class="poppinsLight" id="announcement">ARRIVE BIENTÔT</p>
         </p>
         <br>
-        <p class="poppinsLite" id="invitation">REÇOIS UNE NOTIFICATION POUR LE LANCEMENT</p><br>
+        <p class="poppinsLight" id="invitation">REÇOIS UNE NOTIFICATION POUR LE LANCEMENT</p><br>
         <input type="email" name="usermail" placeholder="Entre ton e-mail" class="
-        poppinsReg form-control" size="40"><br>
-        <input type="submit" value="VALIDER" class="poppinsReg btn btn-dark">
+        poppinsRegular form-control" size="40"><br>
+        <input type="submit" value="VALIDER" class="poppinsRegular btn btn-dark">
     </body>
 </html>

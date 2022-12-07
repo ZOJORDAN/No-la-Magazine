@@ -20,25 +20,25 @@ body{
     text-align: center;
 }
 
-.sctchDisp{
+.scotchDisplay{
     font-family: scotch-display, sans-serif;
     font-style: normal;
     font-weight: 600;
     margin: 0px;
 }
 
-.sctchDmedIt{
+.scotchDisplayMediumItalic{
     font-family: scotch-display, sans-serif;
     font-style: italic;
     font-weight: 500;
 }
 
 
-#logoFtSize{
+#logoFontSize{
     font-size: 100px;
 }
 
-.poppinsLite{
+.poppinsLight{
     font-family: poppins, sans-serif;
     font-style: normal;
     font-weight: 300;
@@ -53,18 +53,18 @@ body{
     font-size: 25px;
 }
 
-.poppinsReg{
+.poppinsRegular{
     font-family: poppins, sans-serif;
     font-style: normal;
     font-weight: 400;
 }
 
 /* To fix the size of the input element */
-input.poppinsReg.form-control{
+input.poppinsRegular.form-control{
     display: inline-block;
     width: 555px;
 }
 
-p#invitation.poppinsLite{
+p#invitation.poppinsLight{
     margin-bottom: 0;
 }
