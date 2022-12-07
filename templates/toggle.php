@@ -1,5 +1,7 @@
 <?php include 'head-elements/main-head.php'; ?>
 <?php include 'head-elements/head-toggle.php'; ?>
+<?php include 'head-elements/title-toggle.php'; ?>
+
 
 <script type="text/javascript" src="../script/toggle.js"></script>
 
