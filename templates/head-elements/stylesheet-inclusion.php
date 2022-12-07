@@ -1,1 +1,2 @@
-<link rel="stylesheet" href=<?php echo $href_; ?>>
+<link rel="stylesheet" href="
+../assets/coming-soon-landing-page.css">
