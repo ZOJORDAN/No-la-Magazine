@@ -23,7 +23,4 @@
 
     <!-- tab title - define title php variable -->
     <?php include 'title.php'; ?>
-
-    <!-- stylesheet inclusion -->
-    <?php include 'stylesheet-inclusion.php'; ?>
 </head>
