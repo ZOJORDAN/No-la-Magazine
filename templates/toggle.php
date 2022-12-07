@@ -1,6 +1,5 @@
-<?php //$title = "";
-    $href_ = "../assets/toggle.css";
-    include 'head.php';?>
+<?php include '../templates/head-elements/main-head.php'; ?>
+<?php include '../templates/head-elements/head-toggle.php'; ?>
 
 <script type="text/javascript" src="../script/toggle.js"></script>
 
