@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="fr">
     
-    <? include 'head.php'; ?>
+    <?php include 'head-elements/main-head.php'; ?>
+    <?php include 'head-elements/head-toggle.php'; ?>
+    <?php include 'head-elements/head-coming-soon.php'; ?>
 
     <body class="comingSoon">
         <!-- Bootstrap body inclusion -->
