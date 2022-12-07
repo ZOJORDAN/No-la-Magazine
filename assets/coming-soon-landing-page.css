@@ -1,3 +1,5 @@
+@import '../assets/light-dark-mode.css';
+
 html{
     display: flex;
     flex-direction: column;
@@ -5,6 +7,8 @@ html{
 }
 
 body{
+    background-color: var(--background-color);
+    color: var(--text-color);
     display: flex;
     flex-direction: column;
     flex: 1 1 100%;
@@ -55,43 +59,12 @@ body{
     font-weight: 400;
 }
 
-/* TO DO: fix the size of the input element*/
-.form-control{
+/* To fix the size of the input element */
+input.poppinsReg.form-control{
     display: inline-block;
-    width: 55%;
+    width: 555px;
 }
 
-/* taking care of responsive behaviour - not used at the moment */
-@media screen and (min-width: 1152px){
-    
-}
-
-/* creating fluid layout - not used at the moment */
-.content-wrap{
-    max-width: 800px;
-}
-
-/* manual dark mode setting - not used at the moment */
-
-:root, :root.light{
-    --background-color: hsl(0, 0%, 100%);
-    --color: hsl(0, 0%, 0%);
-    --link-color: inherit;
-    --contrast-color: hsl(0, 0%, 0%);
-}
-
-@media(prefers-color-scheme: dark){
-    :root{
-        --background-color: hsl(0, 0%, 11%);
-        --color: hsl(0, 0%, 80%);
-        --link-color: hsl(219, 100%, 77%);
-        --contrast-color: hsl(0, 0%, 80%);
-    }    
-}
-
-:root.dark{
-    --background-color: hsl(0, 0%, 11%);
-    --color: hsl(0, 0%, 80%);
-    --link-color: hsl(219, 100%, 77%);
-    --contrast-color: hsl(0, 0%, 80%);
+p#invitation.poppinsLite{
+    margin-bottom: 0;
 }

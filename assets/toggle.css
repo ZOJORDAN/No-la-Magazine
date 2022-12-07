@@ -1,21 +1,24 @@
 /* button zoning */
 div.toggles{
+    display: inline;
     height: 30px;
-    width: 50px;
+    width: 120px;
     padding: 0;
     position: relative;
-    top: 1%;
-    left: 92%;
+    top: -26%;
+    left: 55%;
 }
 
-button#styled{    
+button#styled{
+    display: inline;    
     height: 30px;
     width: 50px;
     padding: 0;
+    top: -35.8%;
+    left: 2.2%;
 }
 
 .toggles [aria-pressed] {
-    display:flex;
     box-sizing: border-box;
     border: none;
     color: inherit;

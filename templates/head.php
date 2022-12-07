@@ -4,8 +4,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <!-- dark mode <meta name="color-scheme" content="dark light"> -->
-    <title><?php echo $title; ?></title>
+    <!-- light/dark mode handling -->
+    <link rel="stylesheet" href="../assets/light-dark-mode.css" type="text/css">
 
     <!-- LOGO besides the page title -->
     <link rel="shortcut icon" href="../assets/logo/logo.ico" type="image/x-icon" />
