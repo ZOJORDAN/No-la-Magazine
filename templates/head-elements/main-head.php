@@ -20,7 +20,4 @@
 
     <!-- light/dark mode icons -->
     <?php include 'light-dark-mode-icons.php'; ?>
-
-    <!-- tab title - define title php variable -->
-    <?php include 'title.php'; ?>
 </head>
