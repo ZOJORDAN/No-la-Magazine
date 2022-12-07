@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="fr">
     <!-- tab title + logo : head file inclusion -->
-    <?php $title = "À VENIR";
-    $filePath = "../assets/coming-soon-landing-page.css";
-    include 'head.php'; ?>
+    <?php $title = "À VENIR"; ?>
+
+    <?php $href_ = "../assets/coming-soon-landing-page.css"; ?>
+    
+    <? include 'head.php'; ?>
 
     <body class="comingSoon">
         <!-- Bootstrap body inclusion -->

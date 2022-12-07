@@ -1,31 +1,26 @@
 <!-- TO DO : include this head in any page.  -->
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- light/dark mode handling -->
-    <link rel="stylesheet" href="../assets/light-dark-mode.css" type="text/css">
+    <!-- meta -->
+    <?php include './head-elements/meta.php'; ?>
+
+    <!-- light mode handling -->
+    <?php include 'head-elements/light-mode.php'; ?>
+
+    <!-- dark mode handling -->
+    <?php include 'head-elements/dark-mode.php'; ?>
 
     <!-- LOGO besides the page title -->
-    <link rel="shortcut icon" href="../assets/logo/logo.ico" type="image/x-icon" />
+    <?php include 'head-elements/logo.php'; ?>
 
     <!-- fonts -->
-    <link rel="stylesheet" href="https://use.typekit.net">
+    <?php include 'head-elements/fonts.php'; ?>
 
-    <!-- bootstrap inclusion -->
-    <link href="
-    https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="
-    stylesheet" integrity="
-    sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="
-    anonymous">
-
-    <!-- file inclusion -->
-    <?php include 'file-inclusion.php'; ?>
+    <!-- bootstrap css file inclusion -->
+    <?php include 'head-elements/bootstrap-css.php'; ?>
 
     <!-- light/dark mode icons -->
-    <link rel="stylesheet" 
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-    <link rel="stylesheet" 
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <?php include 'head-elements/light-dark-mode-icons.php'; ?>
+
+    <!-- tab title - define title php variable -->
+    <?php include 'head-elements/title.php'; ?>
 </head>
