@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
     
-    <?php $href_ = "../assets/coming-soon-landing-page.css"; ?>
-    
     <? include 'head.php'; ?>
 
     <body class="comingSoon">
