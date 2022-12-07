@@ -1,5 +1,5 @@
-<?php $title = "toggle";
-    $filePath = "../assets/toggle.css";
+<?php //$title = "";
+    $href_ = "../assets/toggle.css";
     include 'head.php';?>
 
 <script type="text/javascript" src="../script/toggle.js"></script>
