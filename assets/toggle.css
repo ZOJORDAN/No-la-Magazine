@@ -1,3 +1,4 @@
+/*--------------------------------*/
 /* button zoning */
 div.toggles{
     display: inline;
@@ -12,28 +13,19 @@ div.toggles{
 /* laptop */
 @media (max-width : 1024px){
     div.toggles {
-        display: inline;
-        height: 30px;
-        width: 120px;
-        padding: 0;
-        position: relative;
-        top: -8%;
-        left: 49%;
+        top: -7%;
+        left: 48%;
     }
 }
 
 /* large size laptop */
 @media (max-width : 1441px){
     div.toggles {
-        display: inline;
-        height: 30px;
-        width: 120px;
-        padding: 0;
-        position: relative;
         top: -10%;
         left: 49%;
     }
 }
+/*___________________________________*/
 
 button#styled{
     display: inline;    
