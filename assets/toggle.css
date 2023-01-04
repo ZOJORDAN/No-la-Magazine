@@ -9,6 +9,32 @@ div.toggles{
     left: 55%;
 }
 
+/* laptop */
+@media (max-width : 1024px){
+    div.toggles {
+        display: inline;
+        height: 30px;
+        width: 120px;
+        padding: 0;
+        position: relative;
+        top: -8%;
+        left: 49%;
+    }
+}
+
+/* large size laptop */
+@media (max-width : 1441px){
+    div.toggles {
+        display: inline;
+        height: 30px;
+        width: 120px;
+        padding: 0;
+        position: relative;
+        top: -10%;
+        left: 49%;
+    }
+}
+
 button#styled{
     display: inline;    
     height: 30px;

@@ -4,6 +4,15 @@ html{
     display: flex;
     flex-direction: column;
     height: 100%;
+    box-sizing: border-box; /* box-sizing set for all pages */
+}
+
+*, *:before, *:after{
+    box-sizing: inherit; /* useful if I want to set box-sizing for a particular element */
+}
+
+img{
+    max-width: 100%;
 }
 
 body{
@@ -20,6 +29,14 @@ body{
     text-align: center;
 }
 
+/* large size laptop */
+@media (max-width : 1441px){
+    .comingSoon {
+        margin: 50px;
+        text-align: center;
+    }
+}
+
 .scotchDisplay{
     font-family: scotch-display, sans-serif;
     font-style: normal;
@@ -33,10 +50,32 @@ body{
     font-weight: 500;
 }
 
-
+/*--------------------------*/
 #logoFontSize{
     font-size: 100px;
 }
+
+/* extra large size mobile */
+@media (max-width : 491px){
+    #logoFontSize {
+        font-size: 75px;
+    }
+}
+
+/* short size tablet */
+@media (max-width : 593px){
+    #logoFontSize {
+        font-size: 80px;
+    }
+}
+
+/* tablet */
+@media (max-width : 769px){
+    #logoFontSize {
+        font-size: 92px;
+    }
+}
+/*_______________________________*/
 
 .poppinsLight{
     font-family: poppins, sans-serif;
@@ -44,14 +83,57 @@ body{
     font-weight: 300;
 }
 
+/*-----------------------------------*/
 #announcement{
     font-size: 46px;
     margin: 0px;
 }
 
+/* extra large size mobile */
+@media (max-width : 491px){
+    #announcement {
+        font-size: 27px;
+        margin: 0px;
+    }
+}
+
+/* short tablet */
+@media (max-width : 593px){
+    #announcement {
+        font-size: 37px;
+        margin: 0px;
+    }
+}
+
+/* tablet */
+@media (max-width : 769px){
+    #announcement {
+        font-size: 40px;
+        margin: 0px;
+    }
+}
+/*____________________________________*/
+
+/*----------------------------------*/
 #invitation{
     font-size: 25px;
 }
+
+/* short tablet */
+@media (max-width : 593px){
+    #invitation {
+        font-size: 16px;
+    }
+}
+
+/* tablet */
+@media (max-width : 769px){
+    #invitation {
+        font-size: 20px;
+    }
+}
+
+/*____________________________________*/
 
 .poppinsRegular{
     font-family: poppins, sans-serif;
@@ -59,12 +141,70 @@ body{
     font-weight: 400;
 }
 
+/*---------------------------------------*/
 /* To fix the size of the input element */
 input.poppinsRegular.form-control{
     display: inline-block;
     width: 555px;
 }
 
+/* short tablet */
+@media (max-width : 593px){
+    input.poppinsRegular.form-control {
+        display: inline-block;
+        width: 469px;
+    }
+}
+/*________________________________________*/
+
 p#invitation.poppinsLight{
     margin-bottom: 0;
+}
+
+/* 4K screen size */
+@media (max-width : 2561px){
+
+}
+
+/* large size laptop */
+@media (max-width : 1441px){
+
+}
+
+/* laptop */
+@media (max-width : 1025px){
+    .comingSoon {
+        margin: 50px;
+        text-align: center;
+    }
+}
+
+/* tablet */
+@media (max-width : 769px){
+
+}
+
+/* short size tablet */
+@media (max-width : 593px){
+
+}
+
+/* extra large size mobile */
+@media (max-width : 491px){
+
+}
+
+/* large size mobile */
+@media (max-width : 426px){
+
+}
+
+/* medium size mobile */
+@media (max-width : 376px){
+
+}
+
+/* short size mobile */
+@media (max-width : 321px){
+
 }
