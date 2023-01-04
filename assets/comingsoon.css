@@ -33,3 +33,17 @@ html,body{
 div.newsletter{
     border-radius: 50px;
 }
+
+@media screen and (max-width: 400px)
+{
+    h1{
+        font-size: 36px;
+        line-height:50px;
+    }
+
+    body {
+        font-size: 36px;
+        line-height: 60;
+    }
+    
+}
